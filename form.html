@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>User Login Form</title>
+        <link rel="stylesheet" href="style1.css">
+        <script src="script.js"></script>
+        <style>
+
+        </style>
+    </head>
+
+    <body>
+        <div class="main">
+            <h1>User Login Form</h1>
+            <form id="form" action="index.html" target="_blank" method="post"onsubmit="return(validate())" action="">
+                <div class="txt_field">
+                    <input id="username" type="text" >
+                    <span></span>
+                    <label>UserName</label>
+                </div>
+                <div class="txt_field">
+                    <input id="pwd" type="password" required>
+                    <span></span>
+                    <label>Password</label>
+                </div>
+                <div class="pass">
+                    Forgot Password?
+                </div>
+                <input id="submit" type="submit" value="Login" onclick="validate()">
+                <div class="signup_link">
+                    Not a member? <a href="#">Sign up</a>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
